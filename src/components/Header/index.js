@@ -7,6 +7,8 @@ const Header = props => (
     <div className="scores">
       Score: {props.score} Highscore: {props.highscore}
     </div>
+    <div>Click an image to earn points, just make sure you don't click on any more than once!
+    </div>
   </div>
 );
 
